@@ -1,0 +1,64 @@
+/* Убираются стандартные отступы */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input, button {
+    border: none;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+#ContactForm {
+    width: 100%;
+    max-width: 250px;
+    margin: 10px;
+    padding: 20px;
+    /* background: greenyellow; */
+    border: solid;
+    border-color: blue;
+    border-radius: 20px;
+    
+    background-image: url("img/feature-modern.png");
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 4px;
+    border: 3px solid purple;
+    border-radius: 10px;
+}
+
+input:focus {
+    border-color: brown;
+    box-shadow: 0 0 5x grey;
+    background-color: cornflowerblue;
+}
+
+button {
+    width: 100%;
+    margin: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background-color: grey;
+}
+
+button:hover {
+    background-color: green;
+}
